@@ -16,14 +16,16 @@ and an introduction to **classes and objects**.
 
 ## 📝 Project Ideas
 
-### 1. ➕ Method-based Calculator
+### 1. ➕ Advance Calculator
 **Concepts used:** Methods, parameters, return types.
-- Create separate methods for addition, subtraction, multiplication, and division.
+- Create separate methods for addition, subtraction, multiplication, division , and modulus.
+- Make it works for integers and doubles.
 - Ask the user for two numbers and an operation.
 - Call the correct method and return the result.
 - Example:
 ```java
 public static int add(int a, int b) { return a + b; }
+public static double add(double a, double b) { return a + b; }
 ````
 
 ---
