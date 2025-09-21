@@ -19,9 +19,10 @@ and an introduction to **classes and objects**.
 ### 1. ➕ Advance Calculator
 **Concepts used:** Methods, parameters, return types.
 - Create separate methods for addition, subtraction, multiplication, division , and modulus.
-- Make it works for integers and doubles.
+- Make it works for integers and doubles separately (method overloading).
 - Ask the user for two numbers and an operation.
 - Call the correct method and return the result.
+- Do integer or double operations based on user input.
 - Example:
 ```java
 public static int add(int a, int b) { return a + b; }
