@@ -1,5 +1,10 @@
 package methods.examples;
 
+/**
+ * Example 3: Overloading & Overriding
+ * ---------------------------------
+ * This example demonstrates method overloading and method overriding in Java.
+ */
 public class Example3
 {
     public static void main(String[] args)

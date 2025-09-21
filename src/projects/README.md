@@ -1,7 +1,8 @@
 # 📚 Java Projects – Week 2
 
 Welcome to **Week 2** of Java learning projects!  
-This week we’ll go beyond the basics and start working with **methods**, **arrays**, **multidimensional arrays**, and an introduction to **classes and objects**.
+This week we’ll go beyond the basics and start working with **methods**, **arrays**, **multidimensional arrays**,
+and an introduction to **classes and objects**.
 
 ---
 

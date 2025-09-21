@@ -29,7 +29,6 @@ bin/
 *.iml
 *.ipr
 *.iws
-.idea/
 out/
 
 # NetBeans
