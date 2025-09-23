@@ -1,5 +1,7 @@
 package methods.exercises;
 
+import java.util.DoubleSummaryStatistics;
+
 /**
  * Exercise 4: Special Methods
  * ----------------------------
@@ -14,8 +16,17 @@ public class Exercise4
 {
 
     // TODO: Constructor prints "Object created"
+    public Exercise4() {
+        System.out.println("Object created");
+    }
 
     // TODO: Varargs method printStrings()
+     public void printStrings(String... items) {
+        for (String item: items) {
+            System.out.print(item + " ");
+        }
+     }
+
 
     public static void main(String[] args)
     {
@@ -25,10 +36,19 @@ public class Exercise4
 
         // TODO: Call printStrings with multiple arguments
 
+        obj.printStrings("Hello", "world", "I glad to see you");
+
+        System.out.println(" ");
+
         Shape s1 = new Circle();
 //        s1.draw();
 
         // TODO: Create Rectangle object and call draw()
+
+        Rectagle rec = new Rectagle();
+
+        rec.draw();;
+
     }
 }
 
@@ -36,11 +56,12 @@ public class Exercise4
 abstract class Shape
 {
     // TODO: declare abstract method draw()
+    abstract void draw();
 }
 
 class Circle extends Shape
 {
-//    @Override
+    @Override
     public void draw()
     {
         System.out.println("Drawing a Circle");
@@ -48,4 +69,9 @@ class Circle extends Shape
 }
 
 // TODO: Create Rectangle class that implements draw()
+
+class Rectagle extends Shape {
+    @Override
+    public void draw() { System.out.println("Driving a Rectangle ");}
+}
 

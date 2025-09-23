@@ -19,6 +19,11 @@ public class Exercise2
         // Example usage
         obj.publicMethod();
 
+        obj.finalMethod();
+        obj.privateMethod();
+        obj.protectedMethod();
+        obj.publicMethod();
+
         // TODO: Call other methods here
     }
     // Example: public method
@@ -28,13 +33,29 @@ public class Exercise2
     }
 
     // TODO: Add protectedMethod()
+    protected void protectedMethod() {
+        System.out.println("Protected");
+    }
 
     // TODO: Add defaultMethod()
+    public interface MyInterface {
+        default void defaultMethod() {
+            System.out.println("defaultMethod");
+        }
+    }
 
     // TODO: Add privateMethod()
+    private void privateMethod() {
+        System.out.println("privateMethod()");
+    }
 
     // TODO: Add staticMethod()
+    public static void staticMethod() {
+        System.out.println("staticMethod()");
+    }
 
     // TODO: Add finalMethod()
-
+    public final void finalMethod() {
+        System.out.println("finalMethod()");
+    }
 }
