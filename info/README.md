@@ -5,3 +5,4 @@
 - [Array class](./arrays-class.md)
 - [String class methods](./string.md)
 - [Wrappers classes](./wrapper-classes.md)
+- [Integer caching and string pool](./integer-caching-string-pool.md)
