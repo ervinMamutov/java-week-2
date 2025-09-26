@@ -89,6 +89,40 @@ public static double add(double a, double b) { return a + b; }
 * Call `rollDice()` that many times and print the results.
 
 ---
+### 7. 🔢 Prime Number Checker
+
+**Concepts used:** Methods, loops, conditionals.
+
+* Write a method `isPrime(int n)` that checks if a number is prime.
+* Ask the user to enter a number.
+* Use the method to check if it is prime or not.
+* Bonus: Print all prime numbers from `1–100` using the method.
+
+---
+
+### 8. 🛒 Shopping Cart (Array of Objects)
+
+**Concepts used:** Classes, objects, arrays, methods.
+
+* Create a `Product` class with fields: `name`, `price`, `quantity`.
+* Store 5 products in an array.
+* Write a method `calculateTotal()` that returns the total price of all products in the cart.
+* Print the bill with product details and the total.
+
+---
+
+### 9. 🔠 String Utilities
+
+**Concepts used:** Methods, arrays (of characters), loops.
+
+* Write separate methods for:
+
+    * Counting vowels in a string.
+    * Reversing a string.
+    * Checking if a string is a palindrome.
+* Ask the user for input and call the methods.
+
+---
 
 ## 🚀 Learning Goals
 
@@ -98,3 +132,7 @@ By the end of Week 2, you should be able to:
 * Handle **arrays** and **multidimensional arrays** effectively.
 * Understand the basics of **classes and objects**.
 * Combine arrays, loops, and objects in small projects.
+
+
+
+
