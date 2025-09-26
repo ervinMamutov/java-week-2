@@ -1,4 +1,4 @@
-package projects.dArrayScoreboard;
+package projects.arrayScoreboard;
 
 import java.util.Scanner;
 
