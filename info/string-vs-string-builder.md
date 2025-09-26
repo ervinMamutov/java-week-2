@@ -1,4 +1,4 @@
-# String vs StringBuilder in Java
+# String vs StringBuilder
 
 ## 1. Differences between String and StringBuilder
 
